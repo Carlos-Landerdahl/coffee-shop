@@ -21,7 +21,7 @@
 - [x] - Componentização
 
 #### Links importantes: 
-**[LinkedIn](https://www.linkedin.com/in/carloslanderdahl/)**
-**[GitHub](https://github.com/Carlos-Landerdahl)**
+- **[LinkedIn](https://www.linkedin.com/in/carloslanderdahl/)**
+- **[GitHub](https://github.com/Carlos-Landerdahl)**
 
 
