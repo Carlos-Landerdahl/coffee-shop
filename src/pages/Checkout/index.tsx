@@ -1,9 +1,8 @@
-import { Header } from '../../components/Header.tsx'
+import { DeaultLayout } from '../../layouts/DefaultLayout'
 
 export function Checkout() {
   return (
     <>
-      <Header />
       <div>Página do carrinho</div>
     </>
   )

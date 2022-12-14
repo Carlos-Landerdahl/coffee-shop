@@ -20,7 +20,7 @@ export const Section = styled.div`
   gap: 32px;
   flex-wrap: wrap;
 
-  margin-top: 40px;
+  margin: 40px 0;
 `
 
 export const CardCoffee = styled.div`

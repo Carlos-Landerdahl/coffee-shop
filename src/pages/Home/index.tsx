@@ -1,11 +1,9 @@
-import { Header } from '../../components/Header.tsx'
 import { Main } from './components/Main'
 import { SectionCoffee } from './components/SectionCoffee'
 
-export function Home() {
+export function HomePage() {
   return (
     <>
-      <Header />
       <Main />
       <SectionCoffee />
     </>

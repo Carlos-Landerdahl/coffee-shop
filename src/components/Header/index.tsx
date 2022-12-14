@@ -1,11 +1,11 @@
-import { HomeContainer, BtnCar, BtnCity } from './styles'
-import Logo from './assets/logoCoffee.svg'
 import { MapPin, ShoppingCart } from 'phosphor-react'
 import { Link } from 'react-router-dom'
+import { BtnCity, BtnCar, HeadertContainer } from './styles'
+import Logo from './assets/logoCoffee.svg'
 
 export function Header() {
   return (
-    <HomeContainer>
+    <HeadertContainer>
       <Link to="/" title="Home">
         <img src={Logo} alt="" />
       </Link>
@@ -22,6 +22,6 @@ export function Header() {
           </BtnCar>
         </Link>
       </div>
-    </HomeContainer>
+    </HeadertContainer>
   )
 }
