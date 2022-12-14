@@ -1,9 +1,10 @@
 import { DeaultLayout } from '../../layouts/DefaultLayout'
+import { CheckoutContainer } from './styles'
 
 export function Checkout() {
   return (
-    <>
-      <div>Página do carrinho</div>
-    </>
+    <CheckoutContainer>
+      <div>Finalize o seu pedido</div>
+    </CheckoutContainer>
   )
 }

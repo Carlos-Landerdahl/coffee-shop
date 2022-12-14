@@ -81,7 +81,7 @@ export const ContainerBuy = styled.div`
   }
 `
 
-export const ContainerQuantityBuy = styled.div`
+export const QuantityBuy = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;

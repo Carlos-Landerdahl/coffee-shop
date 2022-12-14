@@ -2,7 +2,7 @@ import {
   Buy,
   CardCoffee,
   ContainerBuy,
-  ContainerQuantityBuy,
+  QuantityBuy,
   ImgCoffeType,
   Section,
   Title,
@@ -173,7 +173,7 @@ export function SectionCoffee() {
                 <p>
                   R$<span>{item.price}</span>
                 </p>
-                <ContainerQuantityBuy>
+                <QuantityBuy>
                   <button>
                     <Minus weight="bold" />
                   </button>
@@ -181,7 +181,7 @@ export function SectionCoffee() {
                   <button>
                     <Plus weight="bold" />
                   </button>
-                </ContainerQuantityBuy>
+                </QuantityBuy>
                 <Buy>
                   <button>
                     <ShoppingCart weight="fill" color="white" />
