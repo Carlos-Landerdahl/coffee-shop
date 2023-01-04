@@ -7,7 +7,12 @@ export const HeadertContainer = styled.header`
 
   height: 104px;
 
-  background-color: transparent;
+  background-color: ${(props) => props.theme.white};
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
 
   div {
     display: flex;

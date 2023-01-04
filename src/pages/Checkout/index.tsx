@@ -1,10 +1,11 @@
 import { DeaultLayout } from '../../layouts/DefaultLayout'
-import { CheckoutContainer } from './styles'
+import { CompleteOrderForm } from './components/CompleteOrderForm'
+import { CompleteOrderContainer } from './styles'
 
 export function Checkout() {
   return (
-    <CheckoutContainer>
-      <div>Finalize o seu pedido</div>
-    </CheckoutContainer>
+    <CompleteOrderContainer>
+      <CompleteOrderForm />
+    </CompleteOrderContainer>
   )
 }
