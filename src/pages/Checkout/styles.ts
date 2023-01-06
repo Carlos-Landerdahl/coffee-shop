@@ -5,13 +5,13 @@ export const CompleteOrderContainer = styled.div`
     font-size: 18px;
     font-family: 'Baloo 2';
   }
+
+  width: 100%;
+  margin-top: 2.5rem;
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  width: 40rem;
   justify-content: space-between;
   gap: 2rem;
-  margin-top: 2.5rem;
+  flex-wrap: wrap;
 `
 
 export const SectionBaseStyle = styled.div`
