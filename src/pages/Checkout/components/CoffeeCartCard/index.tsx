@@ -3,14 +3,13 @@ import {
   CoffeeCartCardContainer,
   RemoveButton,
 } from './styles'
-import Tradicional from '../../../Home/components/SectionCoffee/assets/Tradicional.png'
 import { Trash } from 'phosphor-react'
 
 export function CoffeeCartCard() {
   return (
     <CoffeeCartCardContainer>
       <div>
-        <img src={Tradicional} alt="" />
+        <img src="" alt="" />
         <div>
           <p>Expresso Tradicional</p>
           <ActionsContainer>
